@@ -3,7 +3,145 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2021-03-24T11:52:20.263Z",
+        "start_timestamp": "2021-03-24T13:06:04.352Z",
+        "line": 4,
+        "name": "User should be able to search",
+        "description": "",
+        "id": "tool-bar-options;user-should-be-able-to-search",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 23416461500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user click on search button",
+            "match": {
+              "location": "DashboardStepDefinitions.user_click_on_search_button()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2190275600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user types \"design_name\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"design_name\"",
+                  "offset": 11
+                }
+              ],
+              "location": "DashboardStepDefinitions.user_types(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2341476100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user verifies that searched design name is displayed",
+            "match": {
+              "location": "DashboardStepDefinitions.user_verifies_that_searched_design_name_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-24T13:06:32.370Z",
+        "line": 9,
+        "name": "User should be able to change the background color",
+        "description": "",
+        "id": "tool-bar-options;user-should-be-able-to-change-the-background-color",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 21597886100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user click on sun button",
+            "match": {
+              "location": "DashboardStepDefinitions.user_click_on_sun_button()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1556546400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "sun button is enabled",
+            "match": {
+              "location": "DashboardStepDefinitions.sun_button_is_enabled()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-24T13:06:55.529Z",
+        "line": 13,
+        "name": "User should be able to do filter",
+        "description": "",
+        "id": "tool-bar-options;user-should-be-able-to-do-filter",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 20045991800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user tap on all filter options",
+            "match": {
+              "location": "DashboardStepDefinitions.user_tap_on_all_filter_options()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8207724900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user lands on no filter message",
+            "match": {
+              "location": "DashboardStepDefinitions.user_lands_on_no_filter_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-24T13:07:23.787Z",
         "line": 17,
         "name": "User should be able to Login",
         "description": "",
@@ -13,35 +151,44 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 19360272200,
+              "status": "passed"
             },
             "line": 18,
             "name": "user tap on three dots icon",
-            "match": {},
+            "match": {
+              "location": "DashboardStepDefinitions.user_tap_on_three_dots_icon()"
+            },
             "keyword": "Given "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 1438637400,
+              "status": "passed"
             },
             "line": 19,
-            "name": "User clicks on Log in to Desighner News Button",
-            "match": {},
+            "name": "User clicks on Log in to Designer News Button",
+            "match": {
+              "location": "DashboardStepDefinitions.user_clicks_on_Log_in_to_Designer_News_Button()"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 1578624600,
+              "status": "passed"
             },
             "line": 20,
             "name": "User lands on  Sign up and Login page",
-            "match": {},
+            "match": {
+              "location": "DashboardStepDefinitions.user_lands_on_Sign_up_and_Login_page()"
+            },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@wip"
+            "name": "@smoke"
           }
         ]
       }
@@ -51,6 +198,15 @@
     "id": "tool-bar-options",
     "keyword": "Feature",
     "uri": "file:src/test/resources/features/DashboardPage.feature",
-    "tags": []
+    "tags": [
+      {
+        "name": "@smoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
   }
 ]

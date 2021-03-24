@@ -14,6 +14,10 @@ public class DashboardPage extends BasePage {
         @AndroidFindBy(id = "io.plaidapp:id/menu_search")
         public AndroidElement searchButton;
 
+        @AndroidFindBy(id = "android:id/search_src_text")
+        public AndroidElement searchBox;
+
+
         @AndroidFindBy(id = "io.plaidapp:id/menu_theme")
         public AndroidElement SunButton;
 
@@ -32,7 +36,7 @@ public class DashboardPage extends BasePage {
         @AndroidFindBy(xpath = "//*[@text='Product Hunt']")
         public AndroidElement PHButton;
 
-        @AndroidFindBy(className = "android.widget.ImageButton']")
+        @AndroidFindBy(className = "android.widget.ImageButton")
         public AndroidElement ImageButton;
 
         @AndroidFindBy(xpath = "//*[@text='Log in to Designer News']")
@@ -44,10 +48,10 @@ public class DashboardPage extends BasePage {
         @AndroidFindBy(xpath = "//*[@text='Convert a YouTube Video to an Image']")
         public AndroidElement SearchResult;
 
+        @AndroidFindBy(id = "io.plaidapp.designernews:id/login")
+        public AndroidElement LoginButton;
 
 
-   // public AndroidElement waitUntil(AndroidElement element){
-     //   return (AndroidElement) wait.until(ExpectedConditions.visibilityOf(element));
-   // }
+
 
     }

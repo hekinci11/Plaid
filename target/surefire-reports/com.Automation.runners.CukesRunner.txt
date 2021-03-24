@@ -1,14 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.Automation.runners.CukesRunner
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 9.858 s <<< FAILURE! - in com.Automation.runners.CukesRunner
-User should be able to do filter(Tool Bar Options)  Time elapsed: 7.512 s  <<< ERROR!
-cucumber.runtime.CucumberException: Failed to instantiate class com.Automation.step_definitions.DashboardStepDefinitions
-Caused by: java.lang.reflect.InvocationTargetException
-Caused by: org.openqa.selenium.WebDriverException: 
-Connection refused: no further information
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-SN06QMU', ip: '192.168.1.113', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
-Driver info: driver.version: Driver
-Caused by: java.net.ConnectException: Connection refused: no further information
-
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 103.616 s - in com.Automation.runners.CukesRunner

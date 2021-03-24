@@ -54,8 +54,24 @@ public class Driver {
 
 
 
+
                     try {
                         driver = new AppiumDriver<>(new URL("https://hekinci:afd25e7c-52b5-4a00-a7be-22708e02ab2b@ondemand.eu-central-1.saucelabs.com:443/wd/hub"),desiredCapabilities);
+                    } catch (MalformedURLException e) {
+                        e.printStackTrace();
+                    }
+                    break;
+
+                case "RealDevice":
+                    desiredCapabilities.setCapability(MobileCapabilityType.PLATFORM_NAME, Platform.ANDROID);
+                    desiredCapabilities.setCapability(MobileCapabilityType.VERSION, "9.0");
+
+                    desiredCapabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "a8c8c6cf");
+                    desiredCapabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME, "UiAutomator2");
+                    desiredCapabilities.setCapability("app","C:/Users/HP/IdeaProjects/PlaidAutomation/Plaid-1251-v1.1.0.apk");
+
+                    try {
+                        driver = new AppiumDriver<>(new URL("http://localhost:4723/wd/hub"), desiredCapabilities);
                     } catch (MalformedURLException e) {
                         e.printStackTrace();
                     }

@@ -10,8 +10,8 @@ import org.junit.runner.RunWith;
                 "html:target/default-html-reports"},
         features = "src/test/resources/features",
         glue = "com/Automation/step_definitions",
-        dryRun = true,
-       tags = "@wip"
+        dryRun = false,
+       tags = "@smoke"
 
 
 )

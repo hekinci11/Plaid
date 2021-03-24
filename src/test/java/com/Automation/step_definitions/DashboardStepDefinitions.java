@@ -6,7 +6,7 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
-
+import org.openqa.selenium.Keys;
 
 
 public class DashboardStepDefinitions {
@@ -16,31 +16,34 @@ public class DashboardStepDefinitions {
     @Given("user click on search button")
     public void user_click_on_search_button() {
        // DashboardPage dashboardPage= new DashboardPage();
-        MobileUtils.waitFor(2);
+        MobileUtils.waitFor(1000);
         dashboardPage.searchButton.click();
     }
 
     @When("user types {string}")
     public void user_types(String string) {
-      //  DashboardPage dashboardPage= new DashboardPage();
-        dashboardPage.searchButton.sendKeys("Convert a YouTube Video to an Image");
+
+        dashboardPage.searchBox.sendKeys("Convert a YouTube Video to an Image");
+
+
     }
 
     @Then("user verifies that searched design name is displayed")
     public void user_verifies_that_searched_design_name_is_displayed() {
-      //  DashboardPage dashboardPage= new DashboardPage();
 
-        MobileUtils.waitFor(2);
-        String actualTitle = dashboardPage.SearchResult.getText();
-        Assert.assertEquals("Convert a YouTube Video to an Image",actualTitle);
+
+        MobileUtils.waitFor(1000);
+      // String actualTitle = dashboardPage.SearchResult.getText();
+      // Assert.assertEquals("Convert a YouTube Video to an Image",actualTitle);
+        Driver.closeDriver();
+        MobileUtils.waitFor(1000);
     }
 
 
    @Given("user click on sun button")
     public void user_click_on_sun_button() {
-      // DashboardPage dashboardPage= new DashboardPage();
 
-       MobileUtils.waitFor(2);
+       MobileUtils.waitFor(1000);
        dashboardPage.SunButton.click();
        MobileUtils.waitFor(2000);
 
@@ -48,11 +51,12 @@ public class DashboardStepDefinitions {
 
     @Then("sun button is enabled")
     public void sun_button_is_enabled() {
-       // DashboardPage dashboardPage= new DashboardPage();
+
         Assert.assertTrue(dashboardPage.SunButton.isEnabled());
 
         System.out.println("Enabled");
         Driver.closeDriver();
+        MobileUtils.waitFor(1000);
     }
 
     @Given("user tap on all filter options")
@@ -73,7 +77,9 @@ public class DashboardStepDefinitions {
         Assert.assertTrue(dashboardPage.NoFilter.getText().contains(expected));
 
         System.out.println(dashboardPage.NoFilter.getText());
+        Driver.closeDriver();
 
+        MobileUtils.waitFor(1000);
 
     }
 
@@ -95,7 +101,12 @@ public class DashboardStepDefinitions {
     @Then("User lands on  Sign up and Login page")
     public void user_lands_on_Sign_up_and_Login_page() {
 
+        Assert.assertTrue(dashboardPage.LoginButton.isDisplayed());
+
         System.out.println("User is on the Login Page");
+
+        Driver.closeDriver();
+        MobileUtils.waitFor(1000);
 
     }
 

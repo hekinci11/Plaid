@@ -1,11 +1,10 @@
+com\Automation\pages\BasePage.class
 com\Automation\utilities\MobileUtils$Direction.class
+com\Automation\pages\DashboardPage.class
 com\Automation\utilities\ConfigurationReader.class
+com\Automation\utilities\MobileUtils$1.class
 com\Automation\step_definitions\DashboardStepDefinitions.class
+com\Automation\utilities\MobileUtils.class
 com\Automation\utilities\Driver.class
 com\Automation\utilities\Log.class
 com\Automation\runners\CukesRunner.class
-com\Automation\pages\BasePage.class
-com\Automation\pages\DashboardPage.class
-com\Automation\utilities\MobileUtils$1.class
-com\Automation\utilities\Drivereski.class
-com\Automation\utilities\MobileUtils.class
