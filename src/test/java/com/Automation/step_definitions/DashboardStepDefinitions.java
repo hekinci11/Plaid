@@ -77,19 +77,25 @@ public class DashboardStepDefinitions {
 
     }
 
-    @Given("user tap on Popular Designer News")
-    public void user_tap_on_Popular_Designer_News() {
-       dashboardPage.PDNButton.click();
+    @Given("user tap on three dots icon")
+    public void user_tap_on_three_dots_icon() {
+        // Write code here that turns the phrase above into concrete actions
+        throw new cucumber.api.PendingException();
     }
 
-    @Then("Humans are amazing option is displayed")
-    public void humans_are_amazing_option_is_displayed() {
-
-        MobileUtils.waitFor(2);
-
-        Assert.assertTrue(dashboardPage.ImageButton.isDisplayed());
-
+    @Given("User clicks on Log in to Desighner News Button")
+    public void user_clicks_on_Log_in_to_Desighner_News_Button() {
+        // Write code here that turns the phrase above into concrete actions
+        throw new cucumber.api.PendingException();
     }
 
+    @Then("User lands on  Sign up and Login page")
+    public void user_lands_on_Sign_up_and_Login_page() {
+        // Write code here that turns the phrase above into concrete actions
+        throw new cucumber.api.PendingException();
+    }
 
 }
+
+
+

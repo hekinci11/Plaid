@@ -20,8 +20,8 @@ public class DashboardPage extends BasePage {
         @AndroidFindBy(id = "io.plaidapp:id/menu_filter")
         public AndroidElement FilterButton;
 
-       @AndroidFindBy(id = "io.plaidapp:id/no_filters")
-       public AndroidElement NoFilter;
+        @AndroidFindBy(id = "io.plaidapp:id/no_filters")
+        public AndroidElement NoFilter;
 
         @AndroidFindBy(xpath = "//*[@text='Popular Designer News']")
         public AndroidElement PDNButton;
