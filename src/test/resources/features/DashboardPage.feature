@@ -16,7 +16,7 @@ Feature: Tool Bar Options
   @wip
   Scenario: User should be able to Login
      Given user tap on three dots icon
-     And User clicks on Log in to Desighner News Button
+     And User clicks on Log in to Designer News Button
     Then User lands on  Sign up and Login page
 
 

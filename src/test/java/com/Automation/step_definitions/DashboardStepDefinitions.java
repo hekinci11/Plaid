@@ -79,20 +79,24 @@ public class DashboardStepDefinitions {
 
     @Given("user tap on three dots icon")
     public void user_tap_on_three_dots_icon() {
-        // Write code here that turns the phrase above into concrete actions
-        throw new cucumber.api.PendingException();
+       dashboardPage.ImageButton.click();
+
+        MobileUtils.waitFor(1000);
     }
 
-    @Given("User clicks on Log in to Desighner News Button")
-    public void user_clicks_on_Log_in_to_Desighner_News_Button() {
-        // Write code here that turns the phrase above into concrete actions
-        throw new cucumber.api.PendingException();
+    @Given("User clicks on Log in to Designer News Button")
+    public void user_clicks_on_Log_in_to_Designer_News_Button() {
+
+        dashboardPage.LDNButton.click();
+        MobileUtils.waitFor(1000);
+
     }
 
     @Then("User lands on  Sign up and Login page")
     public void user_lands_on_Sign_up_and_Login_page() {
-        // Write code here that turns the phrase above into concrete actions
-        throw new cucumber.api.PendingException();
+
+        System.out.println("User is on the Login Page");
+
     }
 
 }
