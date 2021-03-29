@@ -6,7 +6,7 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
-import org.openqa.selenium.Keys;
+
 
 
 public class DashboardStepDefinitions {
@@ -15,7 +15,7 @@ public class DashboardStepDefinitions {
 
     @Given("user click on search button")
     public void user_click_on_search_button() {
-       // DashboardPage dashboardPage= new DashboardPage();
+
         MobileUtils.waitFor(1000);
         dashboardPage.searchButton.click();
     }
@@ -33,8 +33,8 @@ public class DashboardStepDefinitions {
 
 
         MobileUtils.waitFor(1000);
-      // String actualTitle = dashboardPage.SearchResult.getText();
-      // Assert.assertEquals("Convert a YouTube Video to an Image",actualTitle);
+      String actualTitle = dashboardPage.SearchResult.getText();
+      Assert.assertEquals("Convert a YouTube Video to an Image",actualTitle);
         Driver.closeDriver();
         MobileUtils.waitFor(1000);
     }

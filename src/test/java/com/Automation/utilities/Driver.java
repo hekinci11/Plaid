@@ -52,9 +52,6 @@ public class Driver {
                     desiredCapabilities.setCapability("app","storage:filename=Plaid-1251-v1.1.0.apk");
 
 
-
-
-
                     try {
                         driver = new AppiumDriver<>(new URL("https://hekinci:afd25e7c-52b5-4a00-a7be-22708e02ab2b@ondemand.eu-central-1.saucelabs.com:443/wd/hub"),desiredCapabilities);
                     } catch (MalformedURLException e) {

@@ -6,10 +6,6 @@ import io.appium.java_client.pagefactory.AndroidFindBy;
 
 public class DashboardPage extends BasePage {
 
-      //  public DashboardPage() {
-    //    PageFactory.initElements(Driver.getDriver(), this);
-  //  }
-
 
         @AndroidFindBy(id = "io.plaidapp:id/menu_search")
         public AndroidElement searchButton;
