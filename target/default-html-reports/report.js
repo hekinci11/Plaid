@@ -9,6 +9,19 @@ formatter.feature({
     }
   ]
 });
+formatter.background({
+  "name": "",
+  "description": "",
+  "keyword": "Background"
+});
+formatter.step({
+  "name": "user is on dashboard page",
+  "keyword": "Given "
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
 formatter.scenario({
   "name": "User should be able to search",
   "description": "",
@@ -21,13 +34,13 @@ formatter.scenario({
 });
 formatter.step({
   "name": "user click on search button",
-  "keyword": "Given "
+  "keyword": "And "
 });
 formatter.match({
   "location": "DashboardStepDefinitions.user_click_on_search_button()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "user types \"design_name\"",
@@ -37,7 +50,7 @@ formatter.match({
   "location": "DashboardStepDefinitions.user_types(String)"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "user verifies that searched design name is displayed",
@@ -47,7 +60,20 @@ formatter.match({
   "location": "DashboardStepDefinitions.user_verifies_that_searched_design_name_is_displayed()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
+});
+formatter.background({
+  "name": "",
+  "description": "",
+  "keyword": "Background"
+});
+formatter.step({
+  "name": "user is on dashboard page",
+  "keyword": "Given "
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
 });
 formatter.scenario({
   "name": "User should be able to change the background color",
@@ -61,13 +87,13 @@ formatter.scenario({
 });
 formatter.step({
   "name": "user click on sun button",
-  "keyword": "Given "
+  "keyword": "And "
 });
 formatter.match({
   "location": "DashboardStepDefinitions.user_click_on_sun_button()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "sun button is enabled",
@@ -77,7 +103,20 @@ formatter.match({
   "location": "DashboardStepDefinitions.sun_button_is_enabled()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
+});
+formatter.background({
+  "name": "",
+  "description": "",
+  "keyword": "Background"
+});
+formatter.step({
+  "name": "user is on dashboard page",
+  "keyword": "Given "
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
 });
 formatter.scenario({
   "name": "User should be able to do filter",
@@ -91,13 +130,13 @@ formatter.scenario({
 });
 formatter.step({
   "name": "user tap on all filter options",
-  "keyword": "Given "
+  "keyword": "And "
 });
 formatter.match({
   "location": "DashboardStepDefinitions.user_tap_on_all_filter_options()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "user lands on no filter message",
@@ -107,7 +146,20 @@ formatter.match({
   "location": "DashboardStepDefinitions.user_lands_on_no_filter_message()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
+});
+formatter.background({
+  "name": "",
+  "description": "",
+  "keyword": "Background"
+});
+formatter.step({
+  "name": "user is on dashboard page",
+  "keyword": "Given "
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
 });
 formatter.scenario({
   "name": "User should be able to Login",
@@ -121,13 +173,13 @@ formatter.scenario({
 });
 formatter.step({
   "name": "user tap on three dots icon",
-  "keyword": "Given "
+  "keyword": "And "
 });
 formatter.match({
   "location": "DashboardStepDefinitions.user_tap_on_three_dots_icon()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "User clicks on Log in to Designer News Button",
@@ -137,7 +189,7 @@ formatter.match({
   "location": "DashboardStepDefinitions.user_clicks_on_Log_in_to_Designer_News_Button()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "User lands on  Sign up and Login page",
@@ -147,6 +199,6 @@ formatter.match({
   "location": "DashboardStepDefinitions.user_lands_on_Sign_up_and_Login_page()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 });

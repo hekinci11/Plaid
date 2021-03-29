@@ -1,19 +1,15 @@
 package com.Automation.utilities;
-
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
-import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.remote.MobileCapabilityType;
 import org.openqa.selenium.Platform;
 import org.openqa.selenium.remote.DesiredCapabilities;
-
 import java.net.MalformedURLException;
 import java.net.URL;
 
 public class Driver {
     private static AppiumDriver<MobileElement> driver;
     private static DesiredCapabilities desiredCapabilities = new DesiredCapabilities().android();
-    // private final static String ANDROID_APP_URL = ConfigurationReader.get("android.app");
 
 
     public Driver() {
@@ -29,7 +25,6 @@ public class Driver {
                 case "android":
                     desiredCapabilities.setCapability(MobileCapabilityType.PLATFORM_NAME, Platform.ANDROID);
                     desiredCapabilities.setCapability(MobileCapabilityType.VERSION, "7.0");
-
                     desiredCapabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "Pixel_21");
                     desiredCapabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME, "UiAutomator2");
                     desiredCapabilities.setCapability("app","C:/Users/HP/IdeaProjects/PlaidAutomation/Plaid-1251-v1.1.0.apk");
@@ -62,7 +57,6 @@ public class Driver {
                 case "RealDevice":
                     desiredCapabilities.setCapability(MobileCapabilityType.PLATFORM_NAME, Platform.ANDROID);
                     desiredCapabilities.setCapability(MobileCapabilityType.VERSION, "9.0");
-
                     desiredCapabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "a8c8c6cf");
                     desiredCapabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME, "UiAutomator2");
                     desiredCapabilities.setCapability("app","C:/Users/HP/IdeaProjects/PlaidAutomation/Plaid-1251-v1.1.0.apk");

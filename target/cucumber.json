@@ -3,8 +3,26 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2021-03-24T13:06:04.352Z",
         "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "user is on dashboard page",
+            "match": {},
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-29T11:43:22.637Z",
+        "line": 7,
         "name": "User should be able to search",
         "description": "",
         "id": "tool-bar-options;user-should-be-able-to-search",
@@ -13,22 +31,22 @@
         "steps": [
           {
             "result": {
-              "duration": 23416461500,
-              "status": "passed"
+              "duration": 7435100,
+              "status": "skipped"
             },
-            "line": 5,
+            "line": 8,
             "name": "user click on search button",
             "match": {
               "location": "DashboardStepDefinitions.user_click_on_search_button()"
             },
-            "keyword": "Given "
+            "keyword": "And "
           },
           {
             "result": {
-              "duration": 2190275600,
-              "status": "passed"
+              "duration": 1445700,
+              "status": "skipped"
             },
-            "line": 6,
+            "line": 9,
             "name": "user types \"design_name\"",
             "match": {
               "arguments": [
@@ -43,10 +61,10 @@
           },
           {
             "result": {
-              "duration": 2341476100,
-              "status": "passed"
+              "duration": 1503700,
+              "status": "skipped"
             },
-            "line": 7,
+            "line": 10,
             "name": "user verifies that searched design name is displayed",
             "match": {
               "location": "DashboardStepDefinitions.user_verifies_that_searched_design_name_is_displayed()"
@@ -61,8 +79,26 @@
         ]
       },
       {
-        "start_timestamp": "2021-03-24T13:06:32.370Z",
-        "line": 9,
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "user is on dashboard page",
+            "match": {},
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-29T11:43:22.865Z",
+        "line": 12,
         "name": "User should be able to change the background color",
         "description": "",
         "id": "tool-bar-options;user-should-be-able-to-change-the-background-color",
@@ -71,22 +107,22 @@
         "steps": [
           {
             "result": {
-              "duration": 21597886100,
-              "status": "passed"
+              "duration": 7789800,
+              "status": "skipped"
             },
-            "line": 10,
+            "line": 13,
             "name": "user click on sun button",
             "match": {
               "location": "DashboardStepDefinitions.user_click_on_sun_button()"
             },
-            "keyword": "Given "
+            "keyword": "And "
           },
           {
             "result": {
-              "duration": 1556546400,
-              "status": "passed"
+              "duration": 2991900,
+              "status": "skipped"
             },
-            "line": 11,
+            "line": 14,
             "name": "sun button is enabled",
             "match": {
               "location": "DashboardStepDefinitions.sun_button_is_enabled()"
@@ -101,8 +137,26 @@
         ]
       },
       {
-        "start_timestamp": "2021-03-24T13:06:55.529Z",
-        "line": 13,
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "user is on dashboard page",
+            "match": {},
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-29T11:43:22.921Z",
+        "line": 16,
         "name": "User should be able to do filter",
         "description": "",
         "id": "tool-bar-options;user-should-be-able-to-do-filter",
@@ -111,22 +165,22 @@
         "steps": [
           {
             "result": {
-              "duration": 20045991800,
-              "status": "passed"
+              "duration": 6635400,
+              "status": "skipped"
             },
-            "line": 14,
+            "line": 17,
             "name": "user tap on all filter options",
             "match": {
               "location": "DashboardStepDefinitions.user_tap_on_all_filter_options()"
             },
-            "keyword": "Given "
+            "keyword": "And "
           },
           {
             "result": {
-              "duration": 8207724900,
-              "status": "passed"
+              "duration": 2620700,
+              "status": "skipped"
             },
-            "line": 15,
+            "line": 18,
             "name": "user lands on no filter message",
             "match": {
               "location": "DashboardStepDefinitions.user_lands_on_no_filter_message()"
@@ -141,8 +195,26 @@
         ]
       },
       {
-        "start_timestamp": "2021-03-24T13:07:23.787Z",
-        "line": 17,
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "user is on dashboard page",
+            "match": {},
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-29T11:43:22.941Z",
+        "line": 20,
         "name": "User should be able to Login",
         "description": "",
         "id": "tool-bar-options;user-should-be-able-to-login",
@@ -151,22 +223,22 @@
         "steps": [
           {
             "result": {
-              "duration": 19360272200,
-              "status": "passed"
+              "duration": 5398600,
+              "status": "skipped"
             },
-            "line": 18,
+            "line": 21,
             "name": "user tap on three dots icon",
             "match": {
               "location": "DashboardStepDefinitions.user_tap_on_three_dots_icon()"
             },
-            "keyword": "Given "
+            "keyword": "And "
           },
           {
             "result": {
-              "duration": 1438637400,
-              "status": "passed"
+              "duration": 2076000,
+              "status": "skipped"
             },
-            "line": 19,
+            "line": 22,
             "name": "User clicks on Log in to Designer News Button",
             "match": {
               "location": "DashboardStepDefinitions.user_clicks_on_Log_in_to_Designer_News_Button()"
@@ -175,10 +247,10 @@
           },
           {
             "result": {
-              "duration": 1578624600,
-              "status": "passed"
+              "duration": 1836800,
+              "status": "skipped"
             },
-            "line": 20,
+            "line": 23,
             "name": "User lands on  Sign up and Login page",
             "match": {
               "location": "DashboardStepDefinitions.user_lands_on_Sign_up_and_Login_page()"
